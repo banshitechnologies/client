@@ -1,0 +1,220 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
+.sidebar {
+  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+.nav-item,
+.navbar {
+  z-index: 10000;
+}
+@media  screen and (max-width:800px) {
+  .sidebar{
+    z-index: 10000000;
+  }
+}
+
+.e-dlg-center-center, .e-quick-popup-wrapper.e-device{
+  z-index: 1000000 !important;
+}
+.btn{
+  margin-left: 0px !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* color-picker style  */
+
+ #preview {
+  background: transparent
+    url('https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png')
+    no-repeat;
+  display: inline-block;
+  height: 80px;
+  margin: 10px 0;
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #008000;
+}
+
+.e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left){
+  border: none;
+}
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* start registration page designe */
+.left_Side_main{
+  background-color: #161e31;
+  color: #ffff;
+  text-align: center;
+}
+.left_header h2{
+  text-align: center;
+  font-size: 30px !important;
+  padding-top: 30px;
+  padding-bottom: 2rem;
+}
+.borderE{
+  border-bottom-left-radius: 5px !important;
+  border-top-left-radius: 5px;
+  height: 400px;
+}
+.logo{
+  margin-top: 30px;
+}
+.left_header p{
+  line-height: 27px;
+  text-align: center;
+  font-size: 13px;
+  color: #af9d9d;
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  
+  color: rgb(150, 148, 148);
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+
+.regInput:focus{
+  border: 1px solid dodgerblue !important;
+}
+
+.regbutton{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+/* Set a style for the submit button */
+.btn {
+  background-color: #03c9d7;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 86%;
+  opacity: 0.9;
+  
+}
+
+.btn:hover {
+  opacity: 1;
+  background-color: #03a6d7;
+  color: #fff;
+}
+.regInput{
+  border: 1px solid rgb(187, 179, 179);
+  padding: 10px;
+  border-radius: 3px;
+  width: 100%;
+}
+.clr{
+  color: #03c9d7;
+}
+
+/* our services */
+
+.bg_colorblue{
+  background-color: #E5FAFB;
+}
+.bg_colorred{
+  background-color: #ff000017;
+}
+.bg_coloryellow{
+  background-color: #ffca1c40;
+}
+.bg_colorgreen{
+  background-color: #00ff494d;
+}
+.center{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.p_relative{
+  position: relative;
+}
+.b_zero{
+  bottom: 3%;
+  position: relative;
+}
+
+/* package page designe start */
+
+.price{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* buy now page designe start */
+.banshiLogo img{
+  width: 30%;
+}
+.banshiLogo h2{
+  font-weight: 600 !important;
+  color: #9a9ca1;
+}
+.planName{
+  border: 2px solid #497cd5;
+  padding: 6px;
+  border-radius: 3px;
+  box-shadow: 0px 8px 10px -5px rgb(105 154 214);
+  color: #497cd5 !important;
+}
+.collectData{
+  padding: 5px;
+  margin-top: 14px;
+}
+.submitButton{
+  width: 100%;
+  padding: 8px !important;
+}
+.chooseYourNeeds h2{
+  font-size: 20px;
+    font-weight: 700;
+    color: #9a9ca1;
+    margin-bottom: 1rem;
+}
+.coustom_check{
+  min-width: 190px;
+  margin-bottom: 10px;
+}
+.any_logo_content{
+  border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+/* color picker */
+.e-container.e-color-picker{
+  width: 100% !important;
+}
