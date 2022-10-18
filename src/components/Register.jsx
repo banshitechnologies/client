@@ -21,7 +21,7 @@ function Register() {
         <div>
             <div className="container">
                 <div className="row flex justify-center">
-                    <div className="col-md-7">
+                    <div className="col-md-7 center">
                         <div className="row">
                             <div className="col-md-6 left_Side_main borderE">
                                 <div className="logo pt-3 flex justify-center" >

@@ -32,7 +32,6 @@ function Login() {
   return (
     <div>
        <div className="container">
-        <button onClick={refer}>click me</button>
                 <div className="row flex justify-center">
                     <div className="col-md-7 center">
                         <div className="row ">
